@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Inter:wght@400;500&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --font-heading: "Geist", "Inter", system-ui, sans-serif;
+
+  --color-brand-active: #1b68f5;
+  --color-primary: #008cff;
+
+  --color-black-100: #f8f8fb;
+  --color-black-200: #e6e6f2;
+  --color-black-300: #cdd1da4d;
+  --color-black-500: #818ca3;
+  --color-black-700: #5c5c76;
+  --color-black-1000: #1c1818;
+  --color-gray-500: #818ca3;
+
+  --color-red-100: #cf000024;
+  --color-red-200: #fd0b0b0a;
+  --color-red-300: #fdeaea;
+  --color-red-400: #e93232;
+  --color-red-500: #cf0000;
+  --color-red-600: #fd0b0b;
+
+  --color-green-100: #0ca01b0a;
+  --color-green-500: #0ca01b;
+  --color-green-1000: #8ce5c3;
+
+  --color-orange-100: #ff8b071f;
+  --color-orange-500: #e99332;
+
+  --color-yellow-100: #ffe52124;
+  --color-yellow-500: #ffe521;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-black-1000);
+  background-color: var(--color-black-100);
+}
