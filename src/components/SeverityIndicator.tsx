@@ -8,14 +8,14 @@ interface SeverityIndicatorProps {
 
 const SEVERITY_TAG_STYLES: Record<Severity, string> = {
   CRITICAL: "bg-red-100",
-  HIGH: "bg-red-100",
+  HIGH: "bg-red-300",
   MEDIUM: "bg-orange-100",
   LOW: "bg-yellow-100",
 };
 
 const SEVERITY_DOT_COLORS: Record<Severity, string> = {
-  CRITICAL: "bg-red-400",
-  HIGH: "bg-red-500",
+  CRITICAL: "bg-red-500",
+  HIGH: "bg-red-400",
   MEDIUM: "bg-orange-500",
   LOW: "bg-yellow-500",
 };
